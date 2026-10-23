@@ -1,0 +1,25 @@
+{
+  "name": "@compliancechat/ingestion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "compliancechat": "./src/cli.ts"
+  },
+  "scripts": {
+    "cli": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@compliancechat/shared": "*",
+    "commander": "^12.1.0",
+    "exceljs": "^4.4.0",
+    "pdf-parse": "^1.1.1",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.9",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

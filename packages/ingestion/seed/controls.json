@@ -1,0 +1,85 @@
+[
+  {
+    "controlId": "lodging-max",
+    "version": "2021-07-01",
+    "status": "active",
+    "title": "Lodging reimbursed up to per diem (300% under actual expense)",
+    "description": "Lodging is reimbursed at actual cost up to the locality per-diem lodging ceiling. If lodging at per diem is unavailable, the agency may authorize actual expense up to 300% of the applicable per diem.",
+    "ruleKey": "lodging-max",
+    "params": { "actualExpenseMultiplier": 3 },
+    "authority": [
+      { "docId": "ftr-2021", "label": "FTR 301-11.100 / 301-11.303" },
+      { "docId": "gsa-perdiem-faqs", "label": "Per Diem FAQ #18", "sourceUri": "https://www.gsa.gov/travel/plan-a-trip/per-diem-rates/faqs" }
+    ],
+    "effectiveDate": "2021-07-01"
+  },
+  {
+    "controlId": "mie-first-last-and-deductions",
+    "version": "2021-07-01",
+    "status": "active",
+    "title": "M&IE first/last day at 75% and provided-meal deductions",
+    "description": "On the first and last day of travel, M&IE is 75% of the locality rate. When a meal is provided by the government or included in a registration fee, the corresponding amount from the M&IE breakdown table is deducted.",
+    "ruleKey": "mie-first-last-and-deductions",
+    "params": { "firstLastPercent": 0.75 },
+    "authority": [
+      { "docId": "gsa-perdiem-faqs", "label": "Per Diem FAQ #15", "sourceUri": "https://www.gsa.gov/travel/plan-a-trip/per-diem-rates/faqs" },
+      { "docId": "gsa-mie-breakdowns", "label": "GSA M&IE Breakdowns", "sourceUri": "https://www.gsa.gov/travel/plan-a-trip/per-diem-rates/mie-breakdowns" }
+    ],
+    "effectiveDate": "2021-07-01"
+  },
+  {
+    "controlId": "lodging-taxes",
+    "version": "2021-07-01",
+    "status": "active",
+    "title": "CONUS lodging taxes reimbursed separately",
+    "description": "In CONUS, lodging taxes are not included in the per-diem rate and are reimbursable as a miscellaneous travel expense, limited to taxes on the reimbursable lodging cost.",
+    "ruleKey": "lodging-taxes",
+    "params": {},
+    "authority": [
+      { "docId": "ftr-2021", "label": "FTR 301-11.16" },
+      { "docId": "gsa-perdiem-faqs", "label": "Per Diem FAQ #11", "sourceUri": "https://www.gsa.gov/travel/plan-a-trip/per-diem-rates/faqs" }
+    ],
+    "effectiveDate": "2021-07-01"
+  },
+  {
+    "controlId": "receipts",
+    "version": "2021-07-01",
+    "status": "active",
+    "title": "Receipts required for lodging and expenses over $75",
+    "description": "A lodging receipt is required, as are receipts for any authorized expense over $75, or an acceptable written explanation why a receipt is unavailable.",
+    "ruleKey": "receipts",
+    "params": { "receiptThreshold": 75 },
+    "authority": [
+      { "docId": "ftr-2021", "label": "FTR 301-11.25" },
+      { "docId": "gsa-perdiem-faqs", "label": "Per Diem FAQ #17", "sourceUri": "https://www.gsa.gov/travel/plan-a-trip/per-diem-rates/faqs" }
+    ],
+    "effectiveDate": "2021-07-01"
+  },
+  {
+    "controlId": "no-mix-and-match",
+    "version": "2021-07-01",
+    "status": "active",
+    "title": "No mixing lodging and M&IE allowances",
+    "description": "The FTR does not allow shifting unused lodging per diem to M&IE or vice versa. Lodging is reimbursed at actual cost up to the ceiling; M&IE is a flat allowance.",
+    "ruleKey": "no-mix-and-match",
+    "params": {},
+    "authority": [
+      { "docId": "gsa-perdiem-faqs", "label": "Per Diem FAQ #16", "sourceUri": "https://www.gsa.gov/travel/plan-a-trip/per-diem-rates/faqs" }
+    ],
+    "effectiveDate": "2021-07-01"
+  },
+  {
+    "controlId": "day-travel-75",
+    "version": "2021-07-01",
+    "status": "active",
+    "title": "Day travel over 12 hours eligible for 75% M&IE",
+    "description": "For one-day travel away from the official station lasting more than 12 hours, the traveler is entitled to 75% of the applicable M&IE rate.",
+    "ruleKey": "day-travel-75",
+    "params": { "percent": 0.75, "minHours": 12 },
+    "authority": [
+      { "docId": "ftr-2021", "label": "FTR 301-11.20" },
+      { "docId": "gsa-perdiem-faqs", "label": "Per Diem FAQ #19", "sourceUri": "https://www.gsa.gov/travel/plan-a-trip/per-diem-rates/faqs" }
+    ],
+    "effectiveDate": "2021-07-01"
+  }
+]

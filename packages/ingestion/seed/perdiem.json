@@ -1,0 +1,11 @@
+{
+  "_note": "Illustrative per-diem seed fixtures for the prototype. These are SAMPLE values; for authoritative, location- and month-specific rates use the GSA Per Diem rates page / API.",
+  "_source": "https://www.gsa.gov/travel/plan-book/per-diem-rates",
+  "rates": [
+    { "fiscalYear": 2025, "key": "STANDARD", "state": null, "location": "Standard CONUS", "lodging": 110, "mie": 68, "isStandard": true },
+    { "fiscalYear": 2025, "key": "WASHINGTON", "state": "DC", "location": "Washington, DC", "lodging": 258, "mie": 92, "isStandard": false },
+    { "fiscalYear": 2025, "key": "SAN FRANCISCO", "state": "CA", "location": "San Francisco, CA", "lodging": 319, "mie": 92, "isStandard": false },
+    { "fiscalYear": 2025, "key": "NEW YORK CITY", "state": "NY", "location": "New York City, NY", "lodging": 311, "mie": 92, "isStandard": false },
+    { "fiscalYear": 2026, "key": "STANDARD", "state": null, "location": "Standard CONUS", "lodging": 110, "mie": 68, "isStandard": true }
+  ]
+}

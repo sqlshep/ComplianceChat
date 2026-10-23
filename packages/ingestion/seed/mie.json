@@ -1,0 +1,11 @@
+{
+  "_note": "CONUS M&IE breakdown table from GSA M&IE Breakdowns. Seed fixture for prototype validation; verify against the live GSA page for the applicable fiscal year.",
+  "_source": "https://www.gsa.gov/travel/plan-a-trip/per-diem-rates/mie-breakdowns",
+  "rows": [
+    { "mieTotal": 68, "breakfast": 16, "lunch": 19, "dinner": 28, "incidentals": 5, "firstLastDay": 51.0 },
+    { "mieTotal": 74, "breakfast": 18, "lunch": 20, "dinner": 31, "incidentals": 5, "firstLastDay": 55.5 },
+    { "mieTotal": 80, "breakfast": 20, "lunch": 22, "dinner": 33, "incidentals": 5, "firstLastDay": 60.0 },
+    { "mieTotal": 86, "breakfast": 22, "lunch": 23, "dinner": 36, "incidentals": 5, "firstLastDay": 64.5 },
+    { "mieTotal": 92, "breakfast": 23, "lunch": 26, "dinner": 38, "incidentals": 5, "firstLastDay": 69.0 }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "compliancechat",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ComplianceChat — local prototype: RAG over federal travel compliance data with real AWS (S3, OpenSearch Serverless, Bedrock, DynamoDB).",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "packages/shared",
+    "packages/backend",
+    "packages/ingestion",
+    "packages/frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c green,cyan \"npm:dev:backend\" \"npm:dev:frontend\"",
+    "dev:backend": "npm run dev -w @compliancechat/backend",
+    "dev:frontend": "npm run dev -w @compliancechat/frontend",
+    "cli": "npm run cli -w @compliancechat/ingestion --",
+    "ingest": "npm run cli -w @compliancechat/ingestion -- ingest",
+    "bootstrap": "npm run cli -w @compliancechat/ingestion -- bootstrap",
+    "seed": "npm run cli -w @compliancechat/ingestion -- seed",
+    "seed:perdiem": "npm run cli -w @compliancechat/ingestion -- seed-perdiem",
+    "seed:zip": "npm run cli -w @compliancechat/ingestion -- seed-zip",
+    "check": "npm run cli -w @compliancechat/ingestion -- check",
+    "eval": "npm run cli -w @compliancechat/ingestion -- eval",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "typescript": "^5.6.3",
+    "tsx": "^4.19.2",
+    "vitest": "^2.1.8"
+  }
+}

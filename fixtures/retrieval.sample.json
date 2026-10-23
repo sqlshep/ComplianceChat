@@ -1,0 +1,29 @@
+{
+  "_label": "OFFLINE TEST FIXTURE — not used at runtime; never a fallback for AWS.",
+  "chunks": [
+    {
+      "chunkId": "fixture-1",
+      "docId": "gsa-perdiem-faqs",
+      "docTitle": "GSA Per Diem FAQs",
+      "version": "2026-09-21",
+      "s3VersionId": "null",
+      "sourceUri": "https://www.gsa.gov/travel/plan-a-trip/per-diem-rates/faqs",
+      "page": null,
+      "section": "FTR 301-11.16",
+      "text": "Lodging taxes are not included in the CONUS per diem rate. The Federal Travel Regulation 301-11.16 states that in CONUS, lodging taxes paid by the federal traveler are reimbursable as a miscellaneous travel expense limited to the taxes on reimbursable lodging costs.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "chunkId": "fixture-2",
+      "docId": "gsa-perdiem-faqs",
+      "docTitle": "GSA Per Diem FAQs",
+      "version": "2026-09-21",
+      "s3VersionId": "null",
+      "sourceUri": "https://www.gsa.gov/travel/plan-a-trip/per-diem-rates/faqs",
+      "page": null,
+      "section": null,
+      "text": "On the first and last travel day, Federal employees are only eligible for 75 percent of the total M&IE rate for their temporary duty travel location.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ]
+}
